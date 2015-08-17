@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/site.css" type="text/css"/>
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript">window.jQuery || document.write('<script src="/javascripts/jquery-2.1.4.min.js"><\/script>')</script>
+    <script type="text/javascript" src="/javascripts/robot.js"></script>
+    <title>Toy Robot Simulator</title>
+</head>
+<body>
+<div >
+    <header> 
+        <h2 class="text-center">Toy Robot Simulator</h2>
+    </header>
+    <div class="container robot">
+       <div class="row">
+            <strong>Command: </strong>
+            <input type="text" id="command" size="40"> <span id="error"></span>
+        </div>
+        <div class="row">
+            <strong>Report: <span id="report"></span></strong>
+        </div>
+        <div class="row">
+            <canvas id="c" width="551" height="551"></canvas>
+        </div>
+    </div>
+    <footer><p>&#169; <script type="text/javascript">document.write(new Date().getFullYear());</script> BauerMedia, Inc.</p></footer>
+</div>
+</body>
+</html>

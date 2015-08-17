@@ -12,3 +12,5 @@ And then follow the steps as below:
 3, type "set debug = robot & npm start"
 
 4, open the browser and in the url, type "http://localhost:3000/"
+
+Please find the testdata.docx to get some data for testing.
