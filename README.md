@@ -7,7 +7,7 @@ And then follow the steps as below:
 
 1, open "node js command prompt"
 
-2, cd "<dir>" (the folder where your point this repository to)
+2, cd dir(the folder where your point this repository to)
 
 3, type "set debug = robot & npm start"
 
