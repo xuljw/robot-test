@@ -1,0 +1,110 @@
+html, body{
+	height:100%;
+}
+
+body {
+    color:#333;
+	background-color:#fff;
+	line-height:1.538em;
+}
+
+* {font-family: Helvetica, Arial, sans-serif;}
+
+a 
+{
+	text-decoration:none;
+	color:#003399;
+}
+
+
+/*standard button*/
+a.obutton { 
+	width:175px;
+	position: relative;
+	border: 0; 
+	cursor: pointer;
+	overflow: visible; /* removes extra side padding in IE */
+	height:42px; 
+	padding: 0 16px 0 0; 
+	margin-right:5px; 
+	text-align: center; 
+	outline:none;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+a:visited {
+	color:#551a8b;
+}
+
+a.underline
+{
+	text-decoration:underline;
+}
+
+
+footer 
+{
+	position: relative;
+    margin-top: -30px; /* negative value of footer height */
+    height: 30px;
+    clear:both;
+}
+
+footer p
+{
+	text-align:center;
+	font-size:0.846em;
+	line-height:1.636em;
+	color:#999;
+}
+
+
+h1 {
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+
+h2 
+{
+	font-size:1.846em;
+	font-weight:normal;
+	color:#333;
+	line-height:1.167em;
+	text-align: center;
+}
+
+.container{
+	padding: 140px 0 30px;
+	min-height: 100%;
+}
+
+.container.robot
+{
+    padding-top: 30px;
+}
+
+h1,
+.container p {
+	font-size: 1.083em;
+	line-height: 1.25em;
+}
+
+p.lastline {
+	padding-bottom: 30px;
+}
+
+#command {
+     font-size: 1em;
+}
+
+#error {
+    color: #FF0000;
+}
+#report {
+    color: #0892d0;
+}
+
